@@ -15,6 +15,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  // bu providerku
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<PostProvider>(
